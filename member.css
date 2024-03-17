@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 800;
+}
+
+a {
+    text-decoration: none;
+    color: #628ecb;
+}
+
+h2.separator {
+    padding: 0 80px;
+    font-size: 40px;
+    margin-top: 40px;
+}
+
+h2.separator {
+    color: #628ecb;
+}
+.typ-asset .item {
+    padding: 20px;
+    background: #fff;
+    text-wrap: normal;
+    border-radius: 18px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+
+.typ-asset .typ-list .item:hover{
+    box-shadow: none;
+}
+.typ-asset {
+    padding: 0 80px;
+    margin-top: 30px;
+}
+
+.typ-asset .category {
+    display: flex;
+    gap: 14px;
+}
+
+.typ-asset .category a {
+    background-color: #dfdcdc;
+    padding: 8px 14px;
+    font-size: 15px;
+    border-radius: 14px;
+    transition: all 0.3s ease;
+}
+
+
+.typ-asset .category a:hover {
+    color: #fff;
+    background-color: #628ecb;
+}
+
+.typ-asset .typ-list {
+    padding: 40px 0;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.typ-asset .typ-list .item img {
+    width: 280px;
+    height: 280px;
+    border-radius: 18px;
+}
+
+.typ-asset .typ-list .item .info {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding: 12px 0;
+    border-bottom: 1px solid #edecec;
+}
+
+.typ-asset .typ-list .item .info h5 {
+    font-size: 18px;
+}
+
+.typ-asset .typ-list .item .info .btc {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.typ-asset .typ-list .item .btc i {
+    font-size: 22px;
+    color: #628ecb;
+}
+
+.typ-asset .typ-list .item .btc p {
+    font-size: 12px;
+    color: #628ecb;
+}
+
+.typ-asset .typ-list .item .info>p {
+    font-size: 12px;
+    color: #989898;
+}
+
+.typ-asset .typ-list .item .bid {
+    padding: 14px 0 4px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.typ-asset .typ-list .item .bid p,
+.typ-asset .typ-list .item .bid a {
+    background-color: #edecec;
+    padding: 6px 10px;
+    font-size: 13px;
+    border-radius: 10px;
+}
+
+.typ-asset .typ-list .item .bid a {
+    color: #628ecb;
+    background: transparent;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.typ-asset .typ-list .item .bid a:hover {
+    color: #fff;
+    background-color: #000;
+}
