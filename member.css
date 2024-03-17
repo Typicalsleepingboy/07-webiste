@@ -8,6 +8,10 @@
     font-weight: 800;
 }
 
+body {
+    background-color: #f1f1f1;
+}
+
 a {
     text-decoration: none;
     color: #628ecb;
@@ -31,13 +35,25 @@ h2.separator {
     transition: all 0.3s ease;
 }
 
+.typ-asset .typ-list .item {
+    padding: 20px;
+    background: #fff;
+    text-wrap: normal;
+    border-radius: 18px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    display: block;
+}
 
 .typ-asset .typ-list .item:hover{
     box-shadow: none;
 }
-.typ-asset {
+.typ-asset  {
     padding: 0 80px;
-    margin-top: 30px;
+    display: flex;
+    flex-direction: column; 
+    gap: 15px;
+    margin-top: 10px;
 }
 
 .typ-asset .category {
@@ -60,9 +76,9 @@ h2.separator {
 }
 
 .typ-asset .typ-list {
-    padding: 40px 0;
+    padding: 40px 20px;
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
     gap: 20px;
 }
 
