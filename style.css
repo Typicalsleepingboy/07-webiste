@@ -496,7 +496,6 @@ footer .right p {
     header,
     h2.separator,
     .typ-sell,
-    .typ-asset,
     .sellers {
         padding: 0 20px;
     }
@@ -552,7 +551,8 @@ footer .right p {
 
     .typ-asset .typ-list .item,
     .sellers .item {
-        width: 47%;
+        width: 490%;
+        flex-wrap: wrap;
     }
 
     .typ-asset .category a {
