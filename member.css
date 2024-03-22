@@ -236,62 +236,56 @@ footer .right p {
 }
 
 @media screen and (max-width: 1200px) {
-    header .left h1 {
-        font-size: 48px;
-    }
+    .typ-asset {
+        padding: 40 10px;
 
-        .bid a {
-            order: 1px;
-            margin-top: -0%;
-        }
-
-    header img {
-        width: 480px;
     }
     h2.separator {
         font-size: 34px;
     }
 
-    .typ-asset .typ-list {
-        flex-wrap: wrap;
-        row-gap: 30px;
+    .typ-asset .typ-list .item img {
+        position: relative;
+        bottom: 40%;
+        width: 80px;
+        height: 80px;
     }
-
     .typ-asset .typ-list .item {
         width: 48%;
+        height: 158px;
     }
 
-    .typ-asset .typ-list .item img {
-        width: 30%;
+    .typ-asset .category a {
+        font-size: 13px;
+    }
+
+    .typ-asset .typ-list .item h5 {
+        font-size: 15px;
         position: relative;
-        bottom: 50%;
-        height: auto;
+        left: 35%;
+        top: 15%;
+    }
+
+    .typ-asset .typ-list .item .btc p {
+        position: relative;
+        left: 43%;
+        top: 5px;
+    }
+
+    .typ-asset .typ-list .item .btc i {
+        position: relative;
+        top: 25px;
+        left: 34%;
+    }
+
+    .typ-asset .typ-list .item .bid {
+        position: relative;
+        bottom: 44%;
+        left: auto;
     }
 
     footer .links a {
         font-size: 15px;
-    }
-}
-
-@media screen and (max-width: 992px) {
-    footer {
-        flex-direction: column;
-        padding: 60px 40px;
-    }
-
-    footer h3 {
-        margin-bottom: 40px;
-        font-size: 32px;
-    }
-
-    .typ-asset .typ-list .item {
-        width: 6500%;
-        flex-wrap: wrap;
-    }
-
-    footer .right {
-        width: 100%;
-        align-items: center;
     }
 }
 
@@ -334,13 +328,8 @@ footer .right p {
 
     .typ-asset .typ-list .item .bid {
         position: relative;
-        bottom: 50%;
         left: auto;
     }
 
-    .typ-asset .typ-list .item .bid a {
-        position: relative;
-        bottom: 5px;
-        left: auto;
-    }
+
 }
