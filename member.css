@@ -285,28 +285,13 @@ footer .right p {
     }
 
     .typ-asset .typ-list .item {
-        width: 650%;
+        width: 6500%;
         flex-wrap: wrap;
     }
 
     footer .right {
         width: 100%;
         align-items: center;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .typ-asset .typ-list .item {
-        width: 650%;
-        flex-wrap: wrap;
-    }
-
-    h2.separator {
-        font-size: 30px;
-    }
-
-    footer {
-        padding: 40px 20px;
     }
 }
 
