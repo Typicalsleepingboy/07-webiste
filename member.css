@@ -219,7 +219,7 @@ footer .right p {
 
 @media screen and (max-width: 1400px) {
     .typ-asset {
-        padding: 0 10px;
+        padding: 15 10px;
     }
 
     h2.separator {
@@ -236,15 +236,13 @@ footer .right p {
 }
 
 @media screen and (max-width: 1200px) {
-
-
     header .left h1 {
         font-size: 48px;
     }
 
         .bid a {
             order: 1px;
-            margin-top: 10%;
+            margin-top: -0%;
         }
 
     header img {
@@ -313,6 +311,9 @@ footer .right p {
 }
 
 @media screen and (max-width: 576px) {
+    .typ-asset {
+        padding: 0 10px;
+    }
     .typ-asset .typ-list .item img {
         width: 80px;
         height: 80px;
@@ -348,13 +349,13 @@ footer .right p {
 
     .typ-asset .typ-list .item .bid {
         position: relative;
-        bottom: 58%;
+        bottom: 50%;
         left: auto;
     }
 
     .typ-asset .typ-list .item .bid a {
         position: relative;
-        bottom: 19px;
+        bottom: 5px;
         left: auto;
     }
 }
